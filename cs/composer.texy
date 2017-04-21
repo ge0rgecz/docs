@@ -16,7 +16,19 @@ Instalace
 Composer se distribuuje jako spustitelný `.phar` soubor a poslední stable si můžete "stáhnout zde":http://getcomposer.org/composer.phar.
 
 
-Linux
+Linux - jednodušší instalace z repozitáře (Ubuntu, Debian)
+------------
+/--code sh
+$ sudo apt install composer
+\--
+
+a to je vše, po instalaci balíčku bude composer globálně přístupný pod příkazem
+
+/--code sh
+$ composer
+\--
+
+Linux - univerzální postup
 -----
 
 Pokud používáte Linux, je doporučováno si stáhnout Composer přes installer
@@ -36,7 +48,6 @@ se stane composer přístupný globálně pod jednoduchým příkazem
 /--code sh
 $ composer
 \--
-
 
 
 Mac OS X
